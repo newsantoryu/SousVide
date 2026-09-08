@@ -10,7 +10,7 @@
 class DS18B20TemperatureSensor : public ITemperatureSensor
 {
 public:
-    DS18B20TemperatureSensor(uint8_t pin);
+    explicit DS18B20TemperatureSensor(uint8_t pin);
 
     void begin() override;
 

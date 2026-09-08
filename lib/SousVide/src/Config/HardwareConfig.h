@@ -2,5 +2,6 @@
 #define HARDWARE_CONFIG_H
 
 #define DS18B20_PIN 4
+#define PELTIER_PWM_PIN 25
 
 #endif
